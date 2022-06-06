@@ -58,4 +58,4 @@ app.get('/metrics', (req, res) => {
     res.end(prometheus.register.metrics())
   })
 
-app.listen(8080, () => console.log(`Example app listening on port 8080!`))
+app.listen(9090, () => console.log(`Example app listening on port 9090!`))
